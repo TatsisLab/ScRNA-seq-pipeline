@@ -24,7 +24,7 @@ cd yourprojectname
 pip install -r requirements.txt
 ```
 
-> [!NOTE]
+> [!NOTEE]
 > If you had any questions during processing please post issues or send me the Email (wusong@cemps.ac.cn).
 
 > If you found this flow useful please cite our work of hyperforin biosynthesis.
