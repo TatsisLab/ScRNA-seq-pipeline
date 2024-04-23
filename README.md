@@ -24,10 +24,10 @@ cd yourprojectname
 pip install -r requirements.txt
 ```
 
-> [!NOTEE]
+> [!TIP]
 > If you had any questions during processing please post issues or send me the Email (wusong@cemps.ac.cn).
-
-> If you found this flow useful please cite our work of hyperforin biosynthesis.
+> [!NOTE]
+> If you found this flow useful please cite our work of hyperforin biosynthesis[^1].
 
 ### References
 [^1]: Single-cell RNA-seq based elucidation of the antidepressant hyperforin biosynthesis de novo in St. John’s wort. Song Wu, Ana Luisa Malaco Morotti, Jun Yang, Ertao Wang, Evangelos C. Tatsis bioRxiv 2024.01.24.577018; doi: https://doi.org/10.1101/2024.01.24.577018
