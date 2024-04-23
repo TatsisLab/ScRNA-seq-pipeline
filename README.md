@@ -50,7 +50,10 @@ pip install jcvi
 export PATH="$PATH:/yourdir/last/src"
 ## https://github.com/tanghaibao/jcvi-bin/blob/master/bin/scip
 export PATH="$PATH:/yourdir/Scip"
+## more details please see https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)#dependencies
 ```
+
+
 
 > [!TIP]
 > If you had any questions during processing please post issues or send me the Email (wusong@cemps.ac.cn).
