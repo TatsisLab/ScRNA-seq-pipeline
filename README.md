@@ -19,7 +19,7 @@ To annotate the cell clusters with an unbiased method, we performed a fully auto
 * Correlating the orthologous marker genes between the two species and generated a marker-gene dataset for *H. perforatum* through syntenic analysis between *A. thaliana* and *H. perforatum* by **[MCscan](https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version))**[^3]
 + Performing the **[ScType](https://github.com/IanevskiAleksandr/sc-type)**[^4] platform, an automated cell-type annotation based on a pool of markers
 ![Scheme](/Scheme_annotation.png)
-> Scheme of rapid and automated cell-type annotation in non-model plants. Adopted from ScType.
+> Scheme of rapid and automated cell-type annotation in non-model plants. Adopted from ScType[^4].
 ### Dependencies
 
 **1**. From the treatment of single-cell RNA-seq raw data to plots like UMAP figures were most done in R
