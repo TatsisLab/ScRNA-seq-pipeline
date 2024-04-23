@@ -1,4 +1,4 @@
-#>ScRNA-seq pipeline
+# ScRNA-seq pipeline
 
 This is a pipeline that handles the single-cell RNA-seq data of **St. John's wort** (*Hypericum perforatum*)[^1]🌿. 
 
@@ -11,12 +11,12 @@ There is, however, an extensive database of genes from mainstream model plants u
 
 To annotate the cell clusters with an unbiased method, we performed a fully automated annotation pipeline comprising: 
 - Compiling an extensive marker-gene dataset for *A. thaliana* from database like **[PlantscRNAdb](http://ibi.zju.edu.cn/plantscrnadb/index.php)**[^2]
-* Correlating the orthologous marker genes between the two species and generated a marker-gene dataset for *H. perforatum* through syntenic analysis between *A. thaliana* and *H. perforatum* by **[MCScan](https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version))**[^3]
+* Correlating the orthologous marker genes between the two species and generated a marker-gene dataset for *H. perforatum* through syntenic analysis between *A. thaliana* and *H. perforatum* by **[MCscan](https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version))**[^3]
 + Performing the **[ScType](https://github.com/IanevskiAleksandr/sc-type)**[^4] platform, an automated cell-type annotation based on a pool of markers
 
 ### Dependencies
 
-From the treatment of single-cell RNA-seq raw data to plots like UMAP figures were most done in R
+**1**. From the treatment of single-cell RNA-seq raw data to plots like UMAP figures were most done in R
 
 ```bash
 ## It's better to create a specific enviroment with conda
@@ -26,17 +26,34 @@ conda activate hyper
 ## start R console
 R
 ```
-Install the R packages
+
+**2**. Install the MCscan python version
 
 ```bash
+pip install jcvi
+## download and install the dependencies of jcvi
+## http://last.cbrc.jp/
+export PATH="$PATH:/yourdir/last/src"
+## https://github.com/tanghaibao/jcvi-bin/blob/master/bin/scip
+export PATH="$PATH:/yourdir/Scip"
+```
+
+**3**. Install the R packages
+
+```bash
+## packages for processing single-cell raw data
 install.packages('Seurat')
 install.packages("clustree")
+remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')
+## packages for plotting
 install.packages('ggplot2')
 install.packages('ggsci')
 Install.packages('RColorBrewer')
 install.packages('scCustomize')
-remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')
+
 ```
+
+
 
 > [!TIP]
 > If you had any questions during processing please post issues or send me the Email (wusong@cemps.ac.cn).
