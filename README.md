@@ -1,6 +1,6 @@
 # **ScRNA-seq pipeline**
 
-This is a pipeline that handles the single-cell RNA-seq data of **St. John's wort** (*Hypericum perforatum*)🌿. 
+This is a pipeline that handles the single-cell RNA-seq data of **St. John's wort** (*Hypericum perforatum*,贯叶金丝桃,贯叶连翘)🌿. 
 
 ## Working Background
 
