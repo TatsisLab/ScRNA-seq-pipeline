@@ -1,4 +1,4 @@
-# >ScRNA-seq pipeline
+#>ScRNA-seq pipeline
 
 This is a pipeline that handles the single-cell RNA-seq data of **St. John's wort** (*Hypericum perforatum*)[^1]🌿. 
 
