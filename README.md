@@ -16,12 +16,26 @@ To annotate the cell clusters with an unbiased method, we performed a fully auto
 
 ### Dependencies
 
-说明如何安装和设置你的项目。例如：
+From the treatment of single-cell RNA-seq raw data to plots like UMAP figures were most done in R
 
 ```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
-pip install -r requirements.txt
+## It's better to create a specific enviroment with conda
+conda create -n hyper -c conda-forge r-base=4.1.2 r-rgeos
+## activate the conda enviroment
+conda activate hyper
+## start R console
+R
+```
+Install the R packages
+
+```bash
+install.packages('Seurat')
+install.packages("clustree")
+install.packages('ggplot2')
+install.packages('ggsci')
+Install.packages('RColorBrewer')
+install.packages('scCustomize')
+remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')
 ```
 
 > [!TIP]
