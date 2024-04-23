@@ -3,6 +3,11 @@
 This is a pipeline that handles the single-cell RNA-seq data of **St. John's wort** (*Hypericum perforatum*)[^1]🌿. 
 
 ### Working Background
+Single-cell RNA sequencing  has emerged as a revolutionary technology in genomics, enabling the analysis of the genomic and transcriptomic landscapes at an unprecedented resolution. This technology is particularly popular in human and mouse studies due to its ability to unravel complex cellular heterogeneities and molecular dynamics that are crucial for understanding various biological processes and diseases.
+
+In recent years, the application of single-cell sequencing has extended to the field of plant biology, enhancing our understanding of plant development, physiology, and interaction with the environment. Initially, this technology was predominantly applied to model plants, such as Arabidopsis thaliana, where comprehensive genomic resources and easier cell isolation techniques facilitated early and extensive studies.
+
+However, the expansion of single-cell sequencing to non-model plants, especially medicinal plants, faces several challenges. First, the baseline biological research on these plants is relatively underdeveloped. Many non-model plants have complex genomes and unique physiological properties that complicate cell isolation and preparation for sequencing. Furthermore, after sequencing, the annotation of genomic data in non-model plants presents additional hurdles due to the lack of experimentally proved marker genes and limited genetic information. This gap significantly hinders the potential for detailed molecular insights that could drive pharmacological innovations and conservation efforts.
 
 ### Annotation of cell types
 Annotation of cell types in a plant single-cell atlas is usually based on single or a set of marker genes. However, such markers are absent for *H. perforatum*. 
